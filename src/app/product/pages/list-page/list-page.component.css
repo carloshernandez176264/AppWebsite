@@ -1,0 +1,12 @@
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+  gap: 16px; /* Espacio entre las tarjetas */
+}
+
+.card-group > div {
+  display: flex;
+  
+  justify-content: space-between;
+  height: 120%; /* Ocupa todo el espacio vertical disponible */
+}
